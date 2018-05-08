@@ -1,0 +1,214 @@
+body {
+    background-image: url(../images/light-veneer.png)
+}
+
+.name {
+    color: floralwhite;
+    display: block;
+    font-size: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 40px;
+    width: 220px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 0px;
+    margin-left: 200px;
+    display: inline-block;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    width: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-left: 520px;
+    position: absolute;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header {
+    border-bottom: lightgray;
+    border-style: solid;
+    border-bottom-width: 1px;
+    background-color: white;
+}
+
+a {
+    padding: 5px;
+    color: gray;
+}
+
+.navbord {
+    border-right: lightgray;
+    border-left: lightgray;
+    border-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+section {
+    background: white;
+    display: inline-block;
+    border: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+    padding-bottom: 20px;
+    width: 1020px;
+}
+
+.topcont {
+    font-size: 32px;
+    height: 32px;
+    color: #4aaaa5;
+    border-bottom: lightgray;
+    border-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.pics {
+    width: 100%;
+    height: 100%;
+}
+
+.mainpic {
+    width: 200px;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#Bio {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 32px;
+}
+
+footer {
+    display: block;
+    background-color: darkgrey;
+    border-top: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: 5px;
+    color: lightgrey;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
+.image-box {
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.imagebanner {
+    color: floralwhite;
+    display: inline-block;
+    font-size: 24px;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    top: 60%;
+    position: absolute;
+}
+
+#Login {
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fillbox {
+    width: 960px;
+}
+
+textarea {
+    height: 200px;
+    width: 960px;
+}
+
+@media screen and (max-width: 980px;) {
+.name{
+    
+}
+
+nav{
+    margin-left: 200px;
+    left: 460px;
+}
+
+body{
+    max-width: 980px;
+}
+
+header{
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section{
+    max-width: 980px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 880px;
+}
+}
+
+@media screen and (max-width:768px;){
+.name{
+    margin-left: 50px;
+}
+
+nav{
+    margin-left: 0px;
+    left: auto;
+    margin-right: 0px;
+}
+
+section{
+    width: 708px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+}
+
+@media screen and (max-width:640px;){
+
+
+}
